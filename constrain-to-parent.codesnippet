@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ctp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        NSLayoutConstraint.activate([
+            &lt;#thisView#&gt;.topAnchor.constraint(equalTo: &lt;#relatedView#&gt;.topAnchor),
+            &lt;#thisView#&gt;.leadingAnchor.constraint(equalTo: &lt;#relatedView#&gt;.leadingAnchor),
+            &lt;#thisView#&gt;.bottomAnchor.constraint(equalTo: &lt;#relatedView#&gt;.bottomAnchor),
+            &lt;#thisView#&gt;.trailingAnchor.constraint(equalTo: &lt;#relatedView#&gt;.trailingAnchor),
+        ])</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>965B3005-8D33-4EE2-8135-013527EC809E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Pin a view to another view's four edges</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Pin to edges</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
