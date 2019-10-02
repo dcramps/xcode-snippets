@@ -11,7 +11,7 @@ Run `./install.sh`
   
 1. Click the `+` in the top right of Xcode
 2. Browse to the snippet you want
-3. Double lick to select
+3. Double click to select
 
 Alternatively, you can type the shortcut for a snippet and have it added as an autocomplete suggestion
 
