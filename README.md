@@ -9,9 +9,9 @@ Run `./install.sh`
 
 <img width="650" alt="" src="https://user-images.githubusercontent.com/643865/66077871-1d9b3000-e51e-11e9-81b9-307e5e8655e6.png">
   
-Click the `+` in the top right of Xcode
-Browse to the snippet you want
-Double lick to select
+1. Click the `+` in the top right of Xcode
+2. Browse to the snippet you want
+3. Double lick to select
 
 Alternatively, you can type the shortcut for a snippet and have it added as an autocomplete suggestion
 
