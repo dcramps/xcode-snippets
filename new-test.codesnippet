@@ -3,45 +3,47 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nc</string>
+	<string>nt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#class#&gt;
+	<string>//
+//  Copyright © 2021 7shifts, Inc.
+//
 
-final class &lt;#class#&gt; {
-    // MARK: Lifecycle
+import Foundation
+import Mockingbird
+import Nimble
+import Quick
+@testable import &lt;#framework#&gt;
 
-    init() {
+final class &lt;#Class#&gt;Tests: QuickSpec {
+    override func spec() {
+        beforeEach {
+        }
         
+        afterEach {
+            
+        }
+        
+        describe("") {
+            
+        }
     }
-    
-    // MARK: Public
-    
-    
-
-    // MARK: Internal
-    
-    
-
-    // MARK: Private
-    
-    
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D5F1540-B460-4ED3-A6DB-38F987C21DF7</string>
+	<string>624029E8-6E6A-41B0-8D3F-5A683E4ED3D3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Create a new QuickSpec class</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>New class</string>
+	<string>New Test</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

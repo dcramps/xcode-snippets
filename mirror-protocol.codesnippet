@@ -3,48 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nc</string>
+	<string>mp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#class#&gt;
-
-final class &lt;#class#&gt; {
-    // MARK: Lifecycle
-
-    init() {
-        
-    }
-    
-    // MARK: Public
-    
-    
-
-    // MARK: Internal
-    
-    
-
-    // MARK: Private
-    
-    
-}
-</string>
+	<string>// sourcery: MirroredProtocol, module = "&lt;#Module#&gt;"
+protocol &lt;#ThisModule#&gt;_&lt;#Protocol#&gt;: &lt;#Protocol#&gt; {
+    // sourcery:inline:&lt;#ThisModule#&gt;_&lt;#Protocol#&gt;.MirroredProtocol
+    // sourcery:end
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D5F1540-B460-4ED3-A6DB-38F987C21DF7</string>
+	<string>FD230622-297C-40E2-82A3-9E1A19D6DD41</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Create a mirrored protocol for Sourcery to work with</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>New class</string>
+	<string>Mirrored Protocol</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

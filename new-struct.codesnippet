@@ -12,8 +12,12 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - &lt;#struct#&gt;
 
-struct &lt;#struct#&gt; {
+struct &lt;#struct#&gt;: Decodable, Equatable {
     let &lt;#a#&gt;: &lt;#a.type#&gt;
+    
+    enum CodingKeys: String, CodingKey {
+        case &lt;#a#&gt;
+    }
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -29,6 +33,6 @@ struct &lt;#struct#&gt; {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

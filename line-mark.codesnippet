@@ -3,29 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ctp</string>
+	<string>lm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        NSLayoutConstraint.activate([
-            &lt;#thisView#&gt;.topAnchor.constraint(equalTo: &lt;#relatedView#&gt;.topAnchor),
-            &lt;#thisView#&gt;.leadingAnchor.constraint(equalTo: &lt;#relatedView#&gt;.leadingAnchor),
-            &lt;#thisView#&gt;.bottomAnchor.constraint(equalTo: &lt;#relatedView#&gt;.bottomAnchor),
-            &lt;#thisView#&gt;.trailingAnchor.constraint(equalTo: &lt;#relatedView#&gt;.trailingAnchor),
-        ])</string>
+	<string>// MARK: - &lt;#TAG#&gt;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>965B3005-8D33-4EE2-8135-013527EC809E</string>
+	<string>E9C425C1-C43C-4E87-80AF-9DB15EC05F3D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Pin a view to another view's four edges</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Pin to edges</string>
+	<string>Line Marker</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
