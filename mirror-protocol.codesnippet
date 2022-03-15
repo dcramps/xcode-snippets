@@ -10,10 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// sourcery: MirroredProtocol, module = "&lt;#Module#&gt;"
-protocol &lt;#ThisModule#&gt;_&lt;#Protocol#&gt;: &lt;#Protocol#&gt; {
-    // sourcery:inline:&lt;#ThisModule#&gt;_&lt;#Protocol#&gt;.MirroredProtocol
-    // sourcery:end
-}</string>
+protocol &lt;#ThisModule#&gt;_&lt;#Protocol#&gt;: &lt;#Protocol#&gt; {}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FD230622-297C-40E2-82A3-9E1A19D6DD41</string>
 	<key>IDECodeSnippetLanguage</key>
